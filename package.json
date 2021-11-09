@@ -4,7 +4,7 @@
   "description": "Node Semana 1",
   "main": "index.js",
   "scripts": {
-    "start": "nodeTarea.js",
+    "start": "node nodeTarea.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JeanMarco173/MiRNodeSem1/issues"
   },
-  "homepage": "https://github.com/JeanMarco173/MiRNodeSem1#readme"
+  "homepage": "https://github.com/JeanMarco173/MiRNodeSem1#readme",
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
 }
