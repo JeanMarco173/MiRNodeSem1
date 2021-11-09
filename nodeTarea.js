@@ -9,4 +9,12 @@ function generateName() {
   }
   return names;
 }
+//Esta función te permite crear el archivo de texto utilizando la libreria fs
+const writeNames = (path, text) => {
+  fs.appendFile(path, text.toString(), (err) => {
+    console.log(
+      `${err ? "Error creando el archivo" : "Archivo creado con éxito"}`
+    );
+  });
+};
 
