@@ -1,5 +1,5 @@
-const faker = require("faker");
-const fs = require("fs");
+import faker from "faker";
+import fs from "fs";
 
 //Esta función te permite crear una lista con los 1000 nombres utilizando la libreria faker
 function generateName() {
