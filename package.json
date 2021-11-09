@@ -4,7 +4,7 @@
   "description": "Node Semana 1",
   "main": "index.js",
   "scripts": {
-    "start": "nodeTarea.js",
+    "start": "node nodeTarea.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
