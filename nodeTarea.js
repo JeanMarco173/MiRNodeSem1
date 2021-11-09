@@ -17,4 +17,15 @@ const writeNames = (path, text) => {
     );
   });
 };
+//Esta función te permite verificar si el archivo de texto ya existe
+const verify = (path) => {
+  fs.access(path, fs.constants.R_OK, (err) => {
+    `${
+      err
+        ? writeNames(path, generateName())
+        : console.log("El archivo ya existe")
+    }`;
+  });
+};
 
+verify("./NewFile.txt");
